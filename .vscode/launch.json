@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [{
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome",
+            "url": "http://localhost:3000/*",
+            "webRoot": "${workspaceRoot}"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Server",
+            "program": "${workspaceRoot}/server.js"
+        },
+        {
+            "name": "Debug TypeScript",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/ts/server.ts",
+            "outFiles": ["${workspaceRoot}/bin/**/*.js"]
+        }
+    ]
+}
