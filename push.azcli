@@ -1,5 +1,5 @@
 az webapp list
 az appservice plan create --name b1-jp-east --resource-group osc-demo
-az webapp create --name osc17tk-app --resource-group osc-demo --plan b1-jp-east
-az webapp deployment source config --repo-url https://github.com/sakkuru/OSC17tk-app.git --name osc17tk-app --resource-group osc-demo
-az webapp browse --name osc17tk-app --resource-group osc-demo
+az webapp create --name osc-video-chat --resource-group osc-demo --plan b1-jp-east
+az webapp deployment source config --repo-url https://github.com/sakkuru/OSC17tk-app.git --name osc-video-chat --resource-group osc-demo
+az webapp browse --name osc-video-chat --resource-group osc-demo
